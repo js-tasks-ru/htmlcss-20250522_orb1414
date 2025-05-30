@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 
-:root {
+/* :root {
   --white: #ffffff;
   --black: #212429;
   --pink: #F784AD;
@@ -21,7 +21,7 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
-}
+} */
 
 .button {
   background-color: transparent;
