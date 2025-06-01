@@ -1,5 +1,5 @@
 @import '../fonts/fonts.css';
-@import 'normalize.css'
+@import 'normalize.css';
 
 :root {
     --white: #ffffff;
@@ -22,4 +22,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+* {
+    font-family: "Inter", sans-serif;
 }
