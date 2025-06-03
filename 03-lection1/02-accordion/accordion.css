@@ -1,15 +1,10 @@
 /* Стилизация аккордеона */
-.accordion {
-  max-width: 730px;
+.body {
   font-family: "Inter", sans-serif;
 }
 
-.sample {
-  margin-left: 20px;
-}
-
 .accordion__details {
-  padding: 24px 32px 32px;
+  padding: 24px 32px 8px;
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 400;
@@ -24,10 +19,15 @@
 }
 
 .accordion__summary {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
 }
 
 .accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
   display: none;
+}
+
+.accordion__text {
+  margin: 0;
+  padding-bottom: 24px;
 }
