@@ -1,8 +1,15 @@
 @import '../fonts/fonts.css';
 @import 'normalize.css';
 
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/header/header.css';
+@import '../../components/preview/preview.css';
+@import '../../components/footer/footer.css';
+
 :root {
     --white: #ffffff;
+    --white-2: #F9FAFC;
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
@@ -27,3 +34,8 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
