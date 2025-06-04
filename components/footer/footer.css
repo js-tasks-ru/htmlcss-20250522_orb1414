@@ -1,0 +1,22 @@
+.footer {
+  padding: 71px 0 136px;
+  background-color: var(—white);
+  font-family: "Inter", sans-serif;
+  color: var(--black);
+  text-align: center;
+  letter-spacing: 0%;
+}
+
+.footer__title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.footer__text {
+  max-width: 640px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 24px auto 0;
+}
