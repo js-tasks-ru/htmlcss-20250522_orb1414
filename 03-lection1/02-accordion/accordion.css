@@ -1,10 +1,11 @@
 /* Стилизация аккордеона */
-.body {
+
+.accordion {
   font-family: "Inter", sans-serif;
 }
 
 .accordion__details {
-  padding: 24px 32px 8px;
+  padding: 24px 32px;
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 400;
@@ -20,7 +21,6 @@
 
 .accordion__summary {
   display: block;
-  margin-bottom: 16px;
 }
 
 .accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
@@ -29,5 +29,5 @@
 
 .accordion__text {
   margin: 0;
-  padding-bottom: 24px;
+  padding: 16px 0 8px;
 }
