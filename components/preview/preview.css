@@ -1,7 +1,16 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.preview__main {
+  flex-grow: 1;
+}
+
 .preview {
   background-color: var(--blue-4);
   padding: 67px 0;
-  flex-grow: 1;
   box-sizing: border-box;
 }
 
@@ -23,9 +32,6 @@
   align-items: center;
 }
 
-/* .preview__card:nth-child(5) {
-  justify-content: space-around;
-} */
 
 .preview__title {
   font-family: 'Roboto', sans-serif;
@@ -93,13 +99,13 @@
 }
   
 .histogram__column_large {
-  height: 45px;
+  height: 100%;
 }
 
 .histogram__column_medium {
-  height: 25px;
+  height: 50%;
 }
 
 .histogram__column_short {
-  height: 15px;
+  height: 20%;
 }
