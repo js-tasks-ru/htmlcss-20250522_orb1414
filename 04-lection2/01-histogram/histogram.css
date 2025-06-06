@@ -54,14 +54,14 @@
 }
   
 .histogram__column_large {
-  height: 45px;
+  height: 95%;
 }
 
 .histogram__column_medium {
-  height: 25px;
+  height: 50%;
 }
 
 .histogram__column_short {
-  height: 15px;
+  height: 10%;
 }
 
