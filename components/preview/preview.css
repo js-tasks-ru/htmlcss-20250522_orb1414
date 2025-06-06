@@ -20,7 +20,12 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
 }
+
+/* .preview__card:nth-child(5) {
+  justify-content: space-around;
+} */
 
 .preview__title {
   font-family: 'Roboto', sans-serif;
@@ -28,4 +33,73 @@
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.histogram {
+  width: 300px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 16px 24px 24px;
+  letter-spacing: 0%;
+  font-weight: 400;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.histogram__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.histogram__numbers {
+  color: var(--black);
+  margin-bottom: 39px;
+}
+
+.histogram__title {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.histogram__amount {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.histogram__link {
+  margin-top: 3px;
+  text-decoration: none;
+  color: var(--bright-blue);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.histogram__columns {
+  display: flex;
+  gap: 1px;
+  align-items: flex-end;
+  height: 50px;
+}
+
+.histogram__column {
+  flex-basis: 9px;
+  flex-grow: 1;
+  background-color: var(--bright-blue);
+}
+  
+.histogram__column_large {
+  height: 45px;
+}
+
+.histogram__column_medium {
+  height: 25px;
+}
+
+.histogram__column_short {
+  height: 15px;
 }
