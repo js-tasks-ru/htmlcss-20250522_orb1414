@@ -1,4 +1,17 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.preview__main {
+  flex-grow: 1;
+}
+
 .preview {
   background-color: var(--blue-4);
   padding: 67px 0;
+  box-sizing: border-box;
 }
+
+
