@@ -28,33 +28,29 @@
 
 .modal-window {
   display: none;
-  font-family: "Inter", sans-serif;
-  letter-spacing: 0%;
-  max-width: 428px;
-  padding: 30px 40px 33px;
-  background-color: var(--white);
-  border-radius: 8px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1001;
-}
-
-.modal-window::before {
-  content: '';
+  width: 100vw;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  bottom: 0;
+  right: 0;
   background: var(--shadow);
   z-index: -1;
 }
 
-
 .modal-window__inner {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0%;
+  max-width: 428px;
+  padding: 30px 40px 33px;
+  border-radius: 8px;
   position: relative;
+  background-color: var(--white);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
 }
 
 .modal-window__close-btn {
