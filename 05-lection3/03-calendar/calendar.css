@@ -3,10 +3,10 @@
   border-radius: 8px;
   max-width: 304px;
   width: 100%;
-  padding: 28px 30px 40px;
+  padding: 28px 26px 32px;
   left: 50%;
   top: 50%;
-  position: absolute;
+  position: fixed;
   transform: translate(-50%, -50%);
 }
 
@@ -34,7 +34,7 @@
   bottom: 0;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
 }
 
 
@@ -59,13 +59,10 @@
   text-align: center;
 }
 
-.calendar__item_date:nth-of-type(29),
-.calendar__item_date:nth-of-type(34)
- {
+.calendar__item_blue {
   background: var(--bright-blue);
 }
 
-.calendar__item_date:nth-child(n + 30):nth-child(-n + 33) {
+.calendar__item_light-blue {
   background: var(--light-blue);
-  /* opacity: 20%; */
 }
