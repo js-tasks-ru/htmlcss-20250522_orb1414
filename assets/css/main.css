@@ -6,6 +6,7 @@
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
+@import '../../03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
@@ -27,7 +28,8 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-
+    --shadow: rgba(196, 196, 196, .5);
+    
     --error: var(--red);
     --success: var(--blue);
 
@@ -44,6 +46,7 @@ body {
 
 body {
     font-family: "Inter", sans-serif;
+    overflow: initial;
 }
 
 
