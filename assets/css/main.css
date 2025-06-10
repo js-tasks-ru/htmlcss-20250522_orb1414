@@ -36,6 +36,8 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --tooltip-shadow: rgba(33, 36, 41, 0.05);
 }
 
 body {
