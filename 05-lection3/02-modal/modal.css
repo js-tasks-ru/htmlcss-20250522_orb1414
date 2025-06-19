@@ -36,29 +36,12 @@
   cursor: pointer;
 }
 
-
-
-.modal-window__close-btn::before, .modal-window__close-btn::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  /* height: 2px;
-  background: var(--grey-4); */
-}
-
 .cross-icon {
   fill: var(--grey-4);
+  width: 100%;
+  height: 100%;
 }
 
-/* .modal-window__close-btn::before {
-  transform: rotate(45deg);
-}
-
-.modal-window__close-btn::after {
-  transform: rotate(-45deg);
-} */
 
 .modal-window__title {
   font-weight: 600;
