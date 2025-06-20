@@ -4,7 +4,9 @@
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
 @import '../../components/header/header.css';
+@import '../../components/logo/logo.css';
 @import '../../components/preview/preview.css';
+@import '../../components/elements/elements.css';
 @import '../../components/footer/footer.css';
 
 :root {
