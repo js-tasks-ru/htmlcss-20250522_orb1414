@@ -1,12 +1,3 @@
-.page {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.preview__main {
-  flex-grow: 1;
-}
 
 .preview {
   background-color: var(--blue-4);
@@ -15,3 +6,8 @@
 }
 
 
+.preview__cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
