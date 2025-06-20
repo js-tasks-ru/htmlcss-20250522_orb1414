@@ -27,6 +27,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    
 
     --error: var(--red);
     --success: var(--blue);
@@ -34,7 +35,11 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
-    --tooltip-shadow: rgba(33, 36, 41, 0.05);
+    --title-font: #000000;
+    --black-font: #212429;
+    --active-link: #D84910;
+
+
 }
 
 body {
@@ -46,4 +51,12 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+
+html, body {
+    height: 100%;
+}
+
+.container {
+  height: 100%;
+}
 
