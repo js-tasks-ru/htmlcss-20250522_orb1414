@@ -22,6 +22,9 @@
     --bright-blue:#4263EB;
 
     --blue-4: #F9FAFC;
+    --dusty-blue: #90A0B7;
+    --navy: #334D6E;
+    --light-blue: rgba(160, 177, 245, 0.2);
 
     --red: #F03D3E;
     --grey-1: #F8F9FA;
@@ -43,10 +46,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 body {
     font-family: "Inter", sans-serif;
     overflow: initial;
 }
+
 
 
