@@ -1,10 +1,10 @@
-.preview__cards {
+.cards {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.preview__card {
+.card {
   width: 350px;
   height: 367px;
   background-color: var(--white);
@@ -16,12 +16,13 @@
   align-items: center;
 }
 
-
-.preview__title {
+.card__title {
   font-family: 'Roboto', sans-serif;
   font-size: 21px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
 }
+
+
 
