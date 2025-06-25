@@ -1,4 +1,13 @@
+
 .preview {
   background-color: var(--blue-4);
   padding: 67px 0;
+  box-sizing: border-box;
+}
+
+
+.preview__cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
