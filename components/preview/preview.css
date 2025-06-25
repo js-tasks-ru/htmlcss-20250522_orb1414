@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 .preview {
   background-color: var(--blue-4);
   padding: 67px 0;
+=======
+
+.preview {
+  background-color: var(--blue-4);
+  padding: 67px 0;
+  box-sizing: border-box;
+}
+
+
+.preview__cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+>>>>>>> 9a19efd7b4970b488eac37c6b35df8757acb1da0
 }
