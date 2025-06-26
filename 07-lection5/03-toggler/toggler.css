@@ -72,6 +72,10 @@
   background: var(--grey-2);
 }
 
-.toggler-btn__input:disabled + .toggler-btn__move::before {
+.toggler-btn__input:disabled +  .toggler-btn__move::before {
   background: var(--grey-3);
+}
+
+.toggler-btn__input:focus + .toggler-btn__move + .toggler-btn__title {
+  text-decoration: underline;
 }
