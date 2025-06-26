@@ -1,66 +1,77 @@
-.checkboxes {
+
+.toggler-buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.checkbox {
+.toggler-btn {
   display: inline-block;
-}
-
-.checkbox__input {
-  position: absolute;
-  left: -100vw;
-}
-
-.checkbox__state {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.checkbox__control {
+  position: relative;
+  width: 52px;
   height: 28px;
-  width: 28px;
-  background: var(--white);
-  border: 1px solid var(--grey-3);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.checkbox__label {
+.toggler-btn__input {
+  opacity: 1;
+  width: 0;
+  height: 0;
+}
+
+.toggler-btn__move {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  border-radius: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.toggler-btn__title {
+  position: absolute;
+  left: 64px;
+  top: 0;
+}
+
+.toggler-btn__title {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(--grey-4);
+  color: var(--black);
 }
 
-.checkbox__icon {
-  display: none;
+
+.toggler-btn__move::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: var(--grey-2);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: 0.5s;
 }
 
-.checkbox__input:checked + .checkbox__state .checkbox__control {
+.toggler-btn__input:checked + .toggler-btn__move {
   background: var(--bright-blue);
   border-color: var(--bright-blue);
 }
 
-.checkbox__input:checked + .checkbox__state .checkbox__icon {
-  display: block;
+.toggler-btn__input:checked + .toggler-btn__move::before {
+  transform: translateX(24px);
+  background: var(--white);
 }
 
-.checkbox__input:focus + .checkbox__state .checkbox__label {
-  text-decoration: underline;
-}
-
-.checkbox__input:disabled + .checkbox__state .checkbox__control {
+.toggler-btn__input:disabled + .toggler-btn__move {
   background: var(--grey-2);
-  border-color: var(--grey-2);
 }
 
-.checkbox__input:disabled + .checkbox__state .checkbox__label {
-  color: var(--grey-2);
+.toggler-btn__input:disabled + .toggler-btn__move::before {
+  background: var(--grey-3);
 }
