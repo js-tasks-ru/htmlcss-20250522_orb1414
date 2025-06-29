@@ -25,7 +25,11 @@
   border-bottom: 5px solid transparent;
 }
 
-.tabs__label:active {
+
+#all-tabs:checked ~ .tabs__scroller [for="all-tabs"],
+#tab-element:checked ~ .tabs__scroller [for="tab-element"],
+#tab-containers:checked ~ .tabs__scroller [for="tab-containers"],
+#tab-templates:checked ~ .tabs__scroller [for="tab-templates"] {
   color: var(--black);
   border-color: var(--black);
 }
@@ -34,3 +38,9 @@
   display: none;  
 }
 
+#all-tabs:checked ~ .tabs__content_all,
+#tab-element:checked ~ .tabs__content_element,
+#tab-containers:checked ~ .tabs__content_container,
+#tab-templates:checked ~ .tabs__content_template {
+  display: block;
+}
