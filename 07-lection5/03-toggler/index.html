@@ -4,29 +4,36 @@
 
 <head>
     <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./wrapper.css">
     <link rel="stylesheet" href="./toggler.css">
 </head>
 
 <body style="margin-top: 20px; margin-left: 20px;">
-    <div class="toggler-buttons">
+    <div class="wrapper">
 
-        <label class="toggler-btn">
-            <input class="toggler-btn__input" type="checkbox">
-            <div class="toggler-btn__move"></div>
+        <div class="wrapper__btn">
+            <label class="toggler-btn">
+                <input class="toggler-btn__input" type="checkbox">
+                <div class="toggler-btn__move"></div>
+            </label>
             <div class="toggler-btn__title">Off</div>
-        </label>
+        </div>
 
-        <label class="toggler-btn">
-            <input class="toggler-btn__input" checked type="checkbox">
-            <div class="toggler-btn__move"></div>
+        <div class="wrapper__btn">
+            <label class="toggler-btn">
+                <input class="toggler-btn__input" checked type="checkbox">
+                <div class="toggler-btn__move"></div>
+            </label>
             <div class="toggler-btn__title">On</div>
-        </label>
+        </div>
 
-        <label class="toggler-btn">
-            <input class="toggler-btn__input" disabled type="checkbox">
-            <div class="toggler-btn__move"></div>
+        <div class="wrapper__btn">
+            <label class="toggler-btn">
+                <input class="toggler-btn__input" disabled type="checkbox">
+                <div class="toggler-btn__move"></div>
+            </label>
             <div class="toggler-btn__title">Disabled</div>
-        </label>
+        </div>
 
     </div>
 </body>
