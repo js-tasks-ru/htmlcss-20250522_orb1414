@@ -1,9 +1,4 @@
 
-.checkbox__wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
 
 .checkbox {
   display: inline-block;
