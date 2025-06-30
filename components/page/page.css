@@ -7,9 +7,3 @@
 .page__main {
   flex-grow: 1;
 }
-
-.page_checkbox {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
