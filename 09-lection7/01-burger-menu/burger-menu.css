@@ -1,0 +1,37 @@
+
+
+
+.burger-menu_btn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger-menu_btn span {
+  height: 2px;
+  width: 18px;
+  background: var( --grey-4);
+}
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--blue-4);
+  transform: translateX(-100vw);
+  transition: transform 250ms linear;
+}
+
+.burger-menu[data-open] {
+  transform: none;
+}
+
