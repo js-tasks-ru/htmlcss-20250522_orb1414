@@ -7,3 +7,18 @@
 .page__main {
   flex-grow: 1;
 }
+
+.page__component {
+  background-color: var(--blue-4);
+  height: 100%;
+}
+
+.page__inner {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 36px;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+
+}
