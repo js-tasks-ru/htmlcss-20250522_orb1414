@@ -2,9 +2,9 @@
 .preview {
   background-color: var(--blue-4);
   padding: 67px 0;
+  flex-grow: 1;
   box-sizing: border-box;
 }
-
 
 .preview__cards {
   display: flex;
