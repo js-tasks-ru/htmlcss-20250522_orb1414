@@ -20,3 +20,9 @@
   line-height: 24px;
   margin: 24px auto 0;
 }
+
+@media (max-width: 375px) { 
+  .footer {
+    display: none;
+  }
+}
