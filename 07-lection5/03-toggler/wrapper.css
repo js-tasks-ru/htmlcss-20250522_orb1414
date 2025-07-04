@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wrapper__btn {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
