@@ -4,11 +4,44 @@
 
 <head>
     <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./wrapper.css">
     <link rel="stylesheet" href="./radio.css">
 </head>
 
-<body>
+<body style="margin-top: 20px; margin-left: 20px;">
+    <div class="wrapper">
 
+        <label class="radio-btn">
+            <input class="radio-btn__input" type="radio" name="sample-button">
+            <div class="radio-btn__state">
+                <div class="radio-btn__control">
+
+                </div>
+                <div class="radio-btn__label">Default</div>
+            </div>
+        </label>
+
+        <label class="radio-btn">
+            <input class="radio-btn__input" checked type="radio" name="sample-button">
+            <div class="radio-btn__state">
+                <div class="radio-btn__control">
+
+                </div>
+                <div class="radio-btn__label">Selected</div>
+            </div>
+        </label>
+
+        <label class="radio-btn">
+            <input class="radio-btn__input" disabled type="radio" name="sample-button">
+            <div class="radio-btn__state">
+                <div class="radio-btn__control">
+
+                </div>
+                <div class="radio-btn__label">Disabled</div>
+            </div>
+        </label>
+
+    </div>
 </body>
 
 </html>
