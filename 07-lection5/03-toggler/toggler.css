@@ -1,25 +1,19 @@
 
-
 .toggler-btn {
-  display: inline-block;
-  position: relative;
-  width: 52px;
-  height: 28px;
-}
-
-.toggler-btn__wrapper {
-  display: flexbox;
-  justify-content: space-between;
+  display: flex;
+  gap: 12px;
 }
 
 .toggler-btn__input {
-  opacity: 1;
+  opacity: 0;
   width: 0;
   height: 0;
 }
 
 .toggler-btn__move {
-  position: absolute;
+  width: 52px;
+  height: 28px;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -30,21 +24,6 @@
   transition: 0.3s;
   cursor: pointer;
 }
-
-/* .toggler-btn__title {
-  position: absolute;
-  left: 64px;
-  top: 0;
-} */
-
-.toggler-btn__title {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--black);
-}
-
 
 .toggler-btn__move::before {
   content: "";
@@ -58,6 +37,15 @@
   transition: 0.5s;
 }
 
+.toggler-btn__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+}
+
+
 .toggler-btn__input:checked + .toggler-btn__move {
   background: var(--bright-blue);
   border-color: var(--bright-blue);
@@ -70,6 +58,7 @@
 
 .toggler-btn__input:disabled + .toggler-btn__move {
   background: var(--grey-2);
+  border-color: var(--grey-2);
 }
 
 .toggler-btn__input:disabled +  .toggler-btn__move::before {
