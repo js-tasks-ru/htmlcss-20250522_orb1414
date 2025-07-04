@@ -26,10 +26,10 @@
 }
 
 
-#all-tabs:checked ~ .tabs__scroller [for="all-tabs"],
-#tab-element:checked ~ .tabs__scroller [for="tab-element"],
-#tab-containers:checked ~ .tabs__scroller [for="tab-containers"],
-#tab-templates:checked ~ .tabs__scroller [for="tab-templates"] {
+#all-tabs:checked ~ .tabs__header .tabs__scroller [for="all-tabs"],
+#tab-element:checked ~ .tabs__header .tabs__scroller [for="tab-element"],
+#tab-containers:checked ~ .tabs__header .tabs__scroller [for="tab-containers"],
+#tab-templates:checked ~ .tabs__header .tabs__scroller [for="tab-templates"] {
   color: var(--black);
   border-color: var(--black);
 }
