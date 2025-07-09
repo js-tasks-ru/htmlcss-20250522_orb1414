@@ -8,6 +8,10 @@
 @import '../../components/card/card.css';
 @import '../../components/footer/footer.css';
 @import '../../03-lection1/01-button/button.css';
+@import '../../components/menu/menu.css';
+@import '../../components/toggler/toggler.css';
+@import '../../components/menu-mobile/menu-mobile.css';
+
 
 :root {
     --white: #ffffff;
@@ -41,6 +45,7 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
+    --active-link: #D84910;
 
 }
 

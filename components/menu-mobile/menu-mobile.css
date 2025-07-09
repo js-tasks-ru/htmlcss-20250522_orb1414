@@ -1,0 +1,15 @@
+.menu-mobile__title {
+  color: var(--grey-3);
+}
+
+.menu-mobile__list {
+  gap: 16px;
+}
+
+.menu-mobile__list-item_bottom {
+  margin-bottom: 72px;
+}
+
+.menu-mobile__list-link:active {
+  color: var(--active-link);
+}

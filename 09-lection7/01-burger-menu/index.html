@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <!-- Страница бургер-меню -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./burger-menu.css">
-        <script defer src="./burger-menu.js"></script>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./burger-menu.css">
+    <script defer src="./burger-menu.js"></script>
+</head>
+
+<body>
+    <button class="burger-menu_btn" id="burger-menu-open" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="burger-menu" id="burger-menu">
+        <button class="burger-menu__close" id="burger-menu-close">
+            <svg class="burger-menu__svg">
+                <use href="../../assets/images/sprite.svg#close-icon">
+            </svg>
+        </button>
+        <div class="burger-menu__logo">
+            <img class="burger-menu__logo-img" src="../../assets/images/logo-burger.svg" alt="logo">
+        </div>
+        <div class="burger-menu__top">
+            <p class="burger-menu__text">Dark mode</p>
+            <label class="toggler-btn">
+                <input class="toggler-btn__input" type="checkbox">
+                <div class="toggler-btn__move"></div>
+            </label>
+        </div>
+        <nav class="menu menu-mobile">
+            <h4 class="menu__title menu-mobile__title">Components</h4>
+            <ul class="menu__list menu-mobile__list">
+                <li class="menu__list-item">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Modal</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Tooltip</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Avatar</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Calendar</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Histogram</a>
+                </li>
+                <li class="menu__list-item menu__list-item_bottom menu-mobile__list-item_bottom menu-mobile__list-link">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Custom form elements</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link menu-mobile__list-link" href="#">Main page</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
 </html>
