@@ -1,0 +1,14 @@
+.page-component {
+  background-color: var(--blue-4);
+    min-height: 100dvh;
+}
+
+.page-component__inner {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr;
+  gap: 56px;
+  padding-top: 36px;
+  margin-top: 82px;
+}
