@@ -17,7 +17,16 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background-color: var(--grey-2);
+  background: linear-gradient(
+    92.51deg,
+      var(--grey-2) 6.44%,
+      var(--skeleton-color-1) 38.47%,
+      var(--skeleton-color-2) 56.48%,
+      var(--skeleton-color-3) 77.5%,
+      var(--grey-2) 102.52%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite linear;
 }
 
 .skeleton__info {
@@ -29,8 +38,25 @@
 
 .skeleton__line {
   height: 20px;
-  background-color: var(--grey-2);
+  background: linear-gradient(
+    92.51deg,
+      var(--grey-2) 6.44%,
+      var(--skeleton-color-1) 38.47%,
+      var(--skeleton-color-2) 56.48%,
+      var(--skeleton-color-3) 77.5%,
+      var(--grey-2) 102.52%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite linear; 
+}
 
+@keyframes skeleton-loading {
+  0% {
+    background-position: 100% 0; 
+  }
+  100% {
+    background-position: -100% 0; 
+  }
 }
 
 .skeleton__line_short {
