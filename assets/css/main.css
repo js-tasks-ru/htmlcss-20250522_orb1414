@@ -34,6 +34,7 @@
     --grey-4: #495057;
 
     --shadow: rgba(196, 196, 196, .5);
+    --ripple: rgba(0, 0, 0, .5);
 
     --error: var(--red);
     --success: var(--blue);
